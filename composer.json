@@ -1,0 +1,17 @@
+{
+    "name": "dranzers/hello-composer",
+    "description": "Testing create first package composer",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "dranzers",
+            "email": "l7ranzers@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"Dranzers\\HelloComposer\\": "src/"}
+    },
+    "require": {}
+}
